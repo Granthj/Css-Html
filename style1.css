@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bgd{
+    margin:0%;
+    padding:0%; 
+    width: 100%;
+    height: 100vh;
+    background-image: url('tarvel.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    /* border-radius:5%; */
+}
+#ul{
+    padding: 3%;
+    font-style: italic;
+    font-weight: 200;
+    color:blue;
+    text-transform: uppercase;
+    text-shadow: 100px;
+    list-style-type:lower-alpha;  
+}
+.bgd1{
+    margin:0%;
+    padding:0%;
+    width: 100%;
+    height:100vh;
+    background-image: url('food.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    list-style-type:lower-alpha;
+    position: relative;
+    /* border-radius:5%; */
+}
+#ol{
+    padding: 3%;
+    font-style: italic;
+    font-weight: 200;
+    color:red;
+    text-transform: uppercase;
+}
+label{
+    padding: 0px;
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right:3px;
+    color:black;  
+    font-style:oblique;
+    font-weight:bold;
+}
+#input1{        
+    color:black;    
+    font-style: italic;
+    padding:3px;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px; 
+}
+#ptag{
+    padding:10px;
+    width:500px;
+    height:100px;
+    position:absolute;
+    right:20;
+    border-collapse: 1px solid red;
+    background-color: white;
+    overflow:scroll;
+}

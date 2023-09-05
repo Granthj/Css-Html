@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bgd{
+    width: 100%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    background-image: url(tarvel.jpg);
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+/* .bgd1{ */
+    /* width: 50%; */
+    /* height: 50vh; */
+    /* background-color: blueviolet; */
+    /* background-image: url(food.jpg); */
+    /* background-repeat:repeat-y; */
+    /* background-size:100% 100%; */
+    /* background-attachment: fixed; */
+    /* border-color: black; */
+    /* border-style: double; */
+    /* border-radius:10px; */
+/* } */
+.yours{
+    color:firebrick;
+    width: 100px;
+    height:15%;
+    font-family:cursive; 
+    /* font-style: small-caps;
+    font-weight:bold;
+    font-size:large;
+    font-stretch:semi-condensed; */
+    letter-spacing: 5px;
+    word-spacing:3px;
+    /* direction: ltr; */
+    /* text-indent: 40px; */
+    /* text-align: right; */
+    text-transform: uppercase;
+    
+}
+#list{
+     list-style-type: disc;
+}
+#id{
+    color:blue;
+    
+}
